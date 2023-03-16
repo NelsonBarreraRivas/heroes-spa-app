@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchCharacter /> debe de mostrarse correctamente con los valores por defecto 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <h1
+      class="text-center text-4xl py-6 underline"
+    >
+      Search Character
+    </h1>
+    <div
+      class="grid grid-cols-1 sm:grid-cols-12 gap-8"
+    >
+      <div
+        class="sm:col-span-5"
+      >
+        <h4
+          class="text-2xl"
+        >
+          Searching:
+        </h4>
+        <form
+          role="form"
+        >
+          <input
+            autocomplete="off"
+            class="outline-none block w-full rounded-t-md border-0 py-3 text-base px-5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:z-10 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:leading-6"
+            name="searchText"
+            placeholder="Search.... Enter."
+            type="search"
+            value=""
+          />
+        </form>
+      </div>
+      <div
+        class="sm:col-span-7"
+      >
+        <h4
+          class="text-2xl"
+        >
+          Results:
+        </h4>
+        <div
+          aria-label="alert"
+          class="animate__animated animate__fadeIn bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3"
+        >
+          <p
+            class="font-bold"
+          >
+            Informational message
+          </p>
+          <p
+            class="text-base"
+          >
+            Search to Character.
+          </p>
+        </div>
+        <div
+          aria-label="alert"
+          class="animate__animated animate__fadeIn bg-red-100 border-t border-b border-red-500 text-red-500 px-4 py-3"
+          style="display: none;"
+        >
+          <p
+            class="font-bold"
+          >
+            Informational message
+          </p>
+          <p
+            class="text-base"
+          >
+            There's no result with 
+            <b />
+            .
+          </p>
+        </div>
+        <ul
+          class="grid grid-cols-1 gap-4 my-8 justify-center justify-items-center"
+          data-testid="list-data"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

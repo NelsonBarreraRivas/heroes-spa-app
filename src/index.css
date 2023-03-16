@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Tilt+Warp&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    div {
+        @apply font-passion-one
+    }
+}
+
+
+@layer components {
+
+    .items-inherit{
+        align-items: inherit;
+    }
+
+    .pre-loader {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999;
+    }
+
+    .hidden-loading {
+        animation: fadeOut .2s ease forwards;
+    }
+
+    @keyframes fadeOut {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+            z-index: -1;
+        }
+    }
+}
